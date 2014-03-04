@@ -1,0 +1,153 @@
+<!DOsCTYPE html>
+<html>
+<head>
+<title> PRACTICA 3 </title>
+</head>
+
+<body>
+
+<fieldset>
+<form actions "guardar.php" mthod ="GET">
+Nombre: <input type ="text" name="Nombre" id ="nombre"
+size="20" maxlemg="10"> <br/>
+
+<form actions "guardar.php" mthod ="GET">
+Apellido Paterno:   <input type ="text" name="Apellido Paterno  " id ="app"
+size="20" maxlemg="10"> <br/>
+
+Apellido Materno: <input type ="text" name="Apellido Paterno" id ="apm"
+size="20" maxlemg="10"> <br/><br/>
+FOTO: <input type ="text" name="Nombre" id ="nombre"
+size="10" maxlemg="10"> 
+
+<input type="file" id="input" onchange="handleFiles(this.files)">
+<br>
+<br>
+<p>
+Fecha de nacimiento
+</p>
+Dia:
+<select name "fecha"> 
+<option value ="1"> 1 </option>
+<option value ="2" select ="selectd"> 2 </option>
+<option value ="3" select ="selectd"> 3 </option>
+<option value ="4" select ="selectd"> 4 </option>
+<option value ="5" select ="selectd"> 5 </option>
+<option value ="6" select ="selectd"> 6 </option>
+<option value ="7" select ="selectd"> 7 </option>
+<option value ="8" select ="selectd"> 8 </option>
+<option value ="9" select ="selectd"> 9 </option>
+<option value ="10" select ="selectd"> 11 </option>
+<option value ="10" select ="selectd"> 10 </option>
+<option value ="11" select ="selectd"> 12 </option>
+<option value ="12" select ="selectd"> 13 </option>
+<option value ="13" select ="selectd"> 14 </option>
+<option value ="14" select ="selectd"> 15 </option>
+<option value ="15" select ="selectd"> 16 </option>
+<option value ="16" select ="selectd"> 17 </option>
+<option value ="17" select ="selectd"> 18 </option>
+<option value ="18" select ="selectd"> 19 </option>
+<option value ="19" select ="selectd"> 20 </option>
+<option value ="20" select ="selectd"> 21 </option>
+<option value ="21" select ="selectd"> 22 </option>
+<option value ="22" select ="selectd"> 23 </option>
+<option value ="23" select ="selectd"> 24 </option>
+<option value ="24" select ="selectd"> 25 </option>
+<option value ="25" select ="selectd"> 26 </option>
+<option value ="26" select ="selectd"> 27 </option>
+<option value ="27" select ="selectd"> 28 </option>
+<option value ="28" select ="selectd"> 29 </option>
+<option value ="29" select ="selectd"> 30 </option>
+<option value ="30" select ="selectd"> 31 </option>
+</select>
+
+Mes:
+<select name "fecha"> 
+<option value ="1"> Enero </option>
+<option value ="2" select ="selectd"> Febrero </option>
+<option value ="3" select ="selectd"> Marzo </option>
+<option value ="4" select ="selectd"> Abril </option>
+<option value ="5" select ="selectd"> Mayo </option>
+<option value ="6" select ="selectd"> Junio </option>
+<option value ="7" select ="selectd"> Julio </option>
+<option value ="8" select ="selectd"> Agosto </option>
+<option value ="9" select ="selectd"> Septiembre </option>
+<option value ="10" select ="selectd"> Octubre </option>
+<option value ="11" select ="selectd"> Novimbre </option>
+<option value ="12" select ="selectd"> Diciembre </option>
+</select>
+
+Año:
+<select name "fecha"> 
+<option value ="1"> 2002 </option>
+<option value ="2" select ="selectd"> 2003 </option>
+<option value ="3" select ="selectd"> 2004 </option>
+<option value ="4" select ="selectd"> 2005 </option>
+<option value ="5" select ="selectd"> 2006 </option>
+<option value ="6" select ="selectd"> 2007 </option>
+<option value ="7" select ="selectd"> 2008 </option>
+<option value ="8" select ="selectd">  2009 </option>
+<option value ="9" select ="selectd">  2010 </option>
+<option value ="10" select ="selectd"> 2011 </option>
+<option value ="11" select ="selectd"> 2013 </option>
+<option value ="12" select ="selectd"> 2014 </option>
+</select>
+<p>
+sexo
+</p>
+<input type = "radio" name ="materia" id="material" value ="1" >
+<label for = "material"> Masculino </label> <br/> 
+<input type = "radio" name ="materia" id="material" value ="2" >
+<label for = "material"> Femenino </label> <br/> 
+
+</fieldset>
+<fieldset>
+Codigo: <input type ="text" name="codigo" id ="codigo"
+size="20" maxlemg="10"> <br/>
+
+Passwod: <input type ="text" name="pastword" id ="pastword"
+size="20" maxlemg="10"> <br/>
+</fieldset>
+<fieldset>
+Domicilio: <input type ="text" name="dom" id ="dom"
+size="20" maxlemg="10"> <br/>
+
+corro electronico: <input type ="text" name="correo" id ="correo"
+size="20" maxlemg="10"> <br/>
+
+
+Telefono: <input type ="text" name="tel" id ="tel"
+size="20" maxlemg="10"> <br/><br>
+</fieldset>
+
+<fieldset>
+<p>
+Intereses
+</p>
+
+<input type = "checkbox" name ="materia" id="material" value ="1" >
+<label for = "material"> Deportes </label> <br/> 
+<input type = "checkbox" name ="materia" id="material" value ="2" >
+<label for = "material"> cultura </label> <br/> 
+<input type = "checkbox" name ="materia" id="material" value ="3" >
+<label for = "material"> cincia </label> <br/> 
+<input type = "checkbox" name ="materia" id="material" value ="4" >
+<label for = "material"> educacion </label> <br/> 
+
+<p>
+Conclusiones
+</p>
+
+Observaciones <br/>
+<textarea name="Observaciones" id="Observaciones" rows="10" cols="30">
+
+Anotaciones!
+
+</textarea>
+
+<input type ="submit" value="guardar" onclick="alert('guardado!!');">
+<input type ="submit" value="enviar" onclick="alert('enviado!!');">
+</fieldset>
+</form>
+</body>
+</html>
